@@ -61,7 +61,7 @@ public class PersonController {
      */
     @GetMapping
     public ResponseEntity<List<PersonDTO>> getAllPersons() {
-=        logger.info("Fetching all persons.");
+        logger.info("Fetching all persons.");
         logger.debug("Debugging getAllPersons method.");
         logger.error("Error occurred while fetching all persons.", new Exception("Sample exception"));
         return ResponseEntity.ok(personService.getAllPersons());
