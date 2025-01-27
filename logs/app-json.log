@@ -1,0 +1,1188 @@
+{
+                "timestamp": "2025-01-28T04:09:39.221+0530",
+                "message": "Could not detect default configuration classes for test class [com.example.triomics.TriomicsApplicationTests]: TriomicsApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.",
+                "level": "INFO",
+                "package": "o.s.t.c.s.AnnotationConfigContextLoaderUtils",
+                "file": "AnnotationConfigContextLoaderUtils.java",
+                "line": "83",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:09:39.289+0530",
+                "message": "Found @SpringBootConfiguration com.example.triomics.TriomicsApplication for test class com.example.triomics.TriomicsApplicationTests",
+                "level": "INFO",
+                "package": "o.s.b.t.c.SpringBootTestContextBootstrapper",
+                "file": "SpringBootTestContextBootstrapper.java",
+                "line": "234",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:09:39.361+0530",
+                "message": "Restart disabled due to context in which it is running",
+                "level": "INFO",
+                "package": "o.s.b.d.r.RestartApplicationListener",
+                "file": "RestartApplicationListener.java",
+                "line": "74",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:09:39.516+0530",
+                "message": "Starting TriomicsApplicationTests using Java 21.0.5 with PID 511359 (started by panda in /home/panda/pr/triomics)",
+                "level": "INFO",
+                "package": "c.e.t.TriomicsApplicationTests",
+                "file": "StartupInfoLogger.java",
+                "line": "53",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:09:39.518+0530",
+                "message": "Running with Spring Boot v3.4.2, Spring v6.2.2",
+                "level": "DEBUG",
+                "package": "c.e.t.TriomicsApplicationTests",
+                "file": "StartupInfoLogger.java",
+                "line": "54",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:09:39.519+0530",
+                "message": "No active profile set, falling back to 1 default profile: "default"",
+                "level": "INFO",
+                "package": "c.e.t.TriomicsApplicationTests",
+                "file": "SpringApplication.java",
+                "line": "652",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:09:39.876+0530",
+                "message": "Bootstrapping Spring Data JPA repositories in DEFAULT mode.",
+                "level": "INFO",
+                "package": "o.s.d.r.c.RepositoryConfigurationDelegate",
+                "file": "RepositoryConfigurationDelegate.java",
+                "line": "143",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:09:39.905+0530",
+                "message": "Finished Spring Data repository scanning in 24 ms. Found 1 JPA repository interface.",
+                "level": "INFO",
+                "package": "o.s.d.r.c.RepositoryConfigurationDelegate",
+                "file": "RepositoryConfigurationDelegate.java",
+                "line": "211",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:09:40.220+0530",
+                "message": "HHH000204: Processing PersistenceUnitInfo [name: default]",
+                "level": "INFO",
+                "package": "o.h.j.i.u.LogHelper",
+                "file": "LogHelper.java",
+                "line": "31",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:09:40.256+0530",
+                "message": "HHH000412: Hibernate ORM core version 6.6.5.Final",
+                "level": "INFO",
+                "package": "o.h.Version",
+                "file": "Version.java",
+                "line": "44",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:09:40.281+0530",
+                "message": "HHH000026: Second-level cache disabled",
+                "level": "INFO",
+                "package": "o.h.c.i.RegionFactoryInitiator",
+                "file": "RegionFactoryInitiator.java",
+                "line": "50",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:09:40.425+0530",
+                "message": "No LoadTimeWeaver setup: ignoring JPA class transformer",
+                "level": "INFO",
+                "package": "o.s.o.j.p.SpringPersistenceUnitInfo",
+                "file": "SpringPersistenceUnitInfo.java",
+                "line": "87",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:09:40.575+0530",
+                "message": "HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown",
+                "level": "INFO",
+                "package": "o.h.o.c.pooling",
+                "file": "JdbcEnvironmentInitiator.java",
+                "line": "157",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:09:40.987+0530",
+                "message": "HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)",
+                "level": "INFO",
+                "package": "o.h.e.t.j.p.i.JtaPlatformInitiator",
+                "file": "JtaPlatformInitiator.java",
+                "line": "59",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:09:41.025+0530",
+                "message": "Initialized JPA EntityManagerFactory for persistence unit 'default'",
+                "level": "INFO",
+                "package": "o.s.o.j.LocalContainerEntityManagerFactoryBean",
+                "file": "AbstractEntityManagerFactoryBean.java",
+                "line": "447",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:09:41.242+0530",
+                "message": "spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning",
+                "level": "WARN",
+                "package": "o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration",
+                "file": "JpaBaseConfiguration.java",
+                "line": "241",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:09:41.499+0530",
+                "message": "Started TriomicsApplicationTests in 2.144 seconds (process running for 2.95)",
+                "level": "INFO",
+                "package": "c.e.t.TriomicsApplicationTests",
+                "file": "StartupInfoLogger.java",
+                "line": "59",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:09:41.858+0530",
+                "message": "Closing JPA EntityManagerFactory for persistence unit 'default'",
+                "level": "INFO",
+                "package": "o.s.o.j.LocalContainerEntityManagerFactoryBean",
+                "file": "AbstractEntityManagerFactoryBean.java",
+                "line": "660",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:09:43.133+0530",
+                "message": "Starting TriomicsApplication using Java 17.0.13 with PID 511602 (/home/panda/pr/triomics/target/classes started by panda in /home/panda/pr/triomics)",
+                "level": "INFO",
+                "package": "c.e.t.TriomicsApplication",
+                "file": "StartupInfoLogger.java",
+                "line": "53",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:09:43.137+0530",
+                "message": "Running with Spring Boot v3.4.2, Spring v6.2.2",
+                "level": "DEBUG",
+                "package": "c.e.t.TriomicsApplication",
+                "file": "StartupInfoLogger.java",
+                "line": "54",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:09:43.138+0530",
+                "message": "No active profile set, falling back to 1 default profile: "default"",
+                "level": "INFO",
+                "package": "c.e.t.TriomicsApplication",
+                "file": "SpringApplication.java",
+                "line": "652",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:09:43.160+0530",
+                "message": "Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable",
+                "level": "INFO",
+                "package": "o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor",
+                "file": "DeferredLog.java",
+                "line": "252",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:09:43.160+0530",
+                "message": "For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'",
+                "level": "INFO",
+                "package": "o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor",
+                "file": "DeferredLog.java",
+                "line": "252",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:09:43.520+0530",
+                "message": "Bootstrapping Spring Data JPA repositories in DEFAULT mode.",
+                "level": "INFO",
+                "package": "o.s.d.r.c.RepositoryConfigurationDelegate",
+                "file": "RepositoryConfigurationDelegate.java",
+                "line": "143",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:09:43.552+0530",
+                "message": "Finished Spring Data repository scanning in 26 ms. Found 1 JPA repository interface.",
+                "level": "INFO",
+                "package": "o.s.d.r.c.RepositoryConfigurationDelegate",
+                "file": "RepositoryConfigurationDelegate.java",
+                "line": "211",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:09:43.862+0530",
+                "message": "Tomcat initialized with port 8080 (http)",
+                "level": "INFO",
+                "package": "o.s.b.w.e.t.TomcatWebServer",
+                "file": "TomcatWebServer.java",
+                "line": "111",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:09:43.908+0530",
+                "message": "Root WebApplicationContext: initialization completed in 745 ms",
+                "level": "INFO",
+                "package": "o.s.b.w.s.c.ServletWebServerApplicationContext",
+                "file": "ServletWebServerApplicationContext.java",
+                "line": "296",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:09:43.960+0530",
+                "message": "Filter 'loggingFilter' configured for use",
+                "level": "DEBUG",
+                "package": "c.e.t.u.LoggingFilter",
+                "file": "GenericFilterBean.java",
+                "line": "240",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:09:44.064+0530",
+                "message": "HHH000204: Processing PersistenceUnitInfo [name: default]",
+                "level": "INFO",
+                "package": "o.h.j.i.u.LogHelper",
+                "file": "LogHelper.java",
+                "line": "31",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:09:44.107+0530",
+                "message": "HHH000412: Hibernate ORM core version 6.6.5.Final",
+                "level": "INFO",
+                "package": "o.h.Version",
+                "file": "Version.java",
+                "line": "44",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:09:44.136+0530",
+                "message": "HHH000026: Second-level cache disabled",
+                "level": "INFO",
+                "package": "o.h.c.i.RegionFactoryInitiator",
+                "file": "RegionFactoryInitiator.java",
+                "line": "50",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:09:44.260+0530",
+                "message": "No LoadTimeWeaver setup: ignoring JPA class transformer",
+                "level": "INFO",
+                "package": "o.s.o.j.p.SpringPersistenceUnitInfo",
+                "file": "SpringPersistenceUnitInfo.java",
+                "line": "87",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:09:44.457+0530",
+                "message": "HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown",
+                "level": "INFO",
+                "package": "o.h.o.c.pooling",
+                "file": "JdbcEnvironmentInitiator.java",
+                "line": "157",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:09:44.847+0530",
+                "message": "HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)",
+                "level": "INFO",
+                "package": "o.h.e.t.j.p.i.JtaPlatformInitiator",
+                "file": "JtaPlatformInitiator.java",
+                "line": "59",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:09:44.870+0530",
+                "message": "Initialized JPA EntityManagerFactory for persistence unit 'default'",
+                "level": "INFO",
+                "package": "o.s.o.j.LocalContainerEntityManagerFactoryBean",
+                "file": "AbstractEntityManagerFactoryBean.java",
+                "line": "447",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:09:45.013+0530",
+                "message": "spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning",
+                "level": "WARN",
+                "package": "o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration",
+                "file": "JpaBaseConfiguration.java",
+                "line": "241",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:09:45.261+0530",
+                "message": "LiveReload server is running on port 35729",
+                "level": "INFO",
+                "package": "o.s.b.d.a.OptionalLiveReloadServer",
+                "file": "OptionalLiveReloadServer.java",
+                "line": "59",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:09:45.289+0530",
+                "message": "Tomcat started on port 8080 (http) with context path '/'",
+                "level": "INFO",
+                "package": "o.s.b.w.e.t.TomcatWebServer",
+                "file": "TomcatWebServer.java",
+                "line": "243",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:09:45.296+0530",
+                "message": "Started TriomicsApplication in 2.376 seconds (process running for 2.823)",
+                "level": "INFO",
+                "package": "c.e.t.TriomicsApplication",
+                "file": "StartupInfoLogger.java",
+                "line": "59",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:10:11.779+0530",
+                "message": "Initializing Servlet 'dispatcherServlet'",
+                "level": "INFO",
+                "package": "o.s.w.s.DispatcherServlet",
+                "file": "FrameworkServlet.java",
+                "line": "532",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:10:11.779+0530",
+                "message": "Completed initialization in 0 ms",
+                "level": "INFO",
+                "package": "o.s.w.s.DispatcherServlet",
+                "file": "FrameworkServlet.java",
+                "line": "554",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:10:11.796+0530",
+                "message": "This is an info message.",
+                "level": "INFO",
+                "package": "c.e.t.c.PersonController",
+                "file": "PersonController.java",
+                "line": "31",
+                "traceId": "f0e67d43-d4ee-47b6-b0bb-64af9898f9c4",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:10:11.796+0530",
+                "message": "This is a debug message.",
+                "level": "DEBUG",
+                "package": "c.e.t.c.PersonController",
+                "file": "PersonController.java",
+                "line": "32",
+                "traceId": "f0e67d43-d4ee-47b6-b0bb-64af9898f9c4",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:10:11.796+0530",
+                "message": "This is an error message.",
+                "level": "ERROR",
+                "package": "c.e.t.c.PersonController",
+                "file": "PersonController.java",
+                "line": "33",
+                "traceId": "f0e67d43-d4ee-47b6-b0bb-64af9898f9c4",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:11:36.298+0530",
+                "message": "Commencing graceful shutdown. Waiting for active requests to complete",
+                "level": "INFO",
+                "package": "o.s.b.w.e.t.GracefulShutdown",
+                "file": "GracefulShutdown.java",
+                "line": "54",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:11:36.302+0530",
+                "message": "Graceful shutdown complete",
+                "level": "INFO",
+                "package": "o.s.b.w.e.t.GracefulShutdown",
+                "file": "GracefulShutdown.java",
+                "line": "76",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:11:36.306+0530",
+                "message": "Closing JPA EntityManagerFactory for persistence unit 'default'",
+                "level": "INFO",
+                "package": "o.s.o.j.LocalContainerEntityManagerFactoryBean",
+                "file": "AbstractEntityManagerFactoryBean.java",
+                "line": "660",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:11:45.859+0530",
+                "message": "Could not detect default configuration classes for test class [com.example.triomics.TriomicsApplicationTests]: TriomicsApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.",
+                "level": "INFO",
+                "package": "o.s.t.c.s.AnnotationConfigContextLoaderUtils",
+                "file": "AnnotationConfigContextLoaderUtils.java",
+                "line": "83",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:11:45.916+0530",
+                "message": "Found @SpringBootConfiguration com.example.triomics.TriomicsApplication for test class com.example.triomics.TriomicsApplicationTests",
+                "level": "INFO",
+                "package": "o.s.b.t.c.SpringBootTestContextBootstrapper",
+                "file": "SpringBootTestContextBootstrapper.java",
+                "line": "234",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:11:45.990+0530",
+                "message": "Restart disabled due to context in which it is running",
+                "level": "INFO",
+                "package": "o.s.b.d.r.RestartApplicationListener",
+                "file": "RestartApplicationListener.java",
+                "line": "74",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:11:46.152+0530",
+                "message": "Starting TriomicsApplicationTests using Java 21.0.5 with PID 513388 (started by panda in /home/panda/pr/triomics)",
+                "level": "INFO",
+                "package": "c.e.t.TriomicsApplicationTests",
+                "file": "StartupInfoLogger.java",
+                "line": "53",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:11:46.154+0530",
+                "message": "Running with Spring Boot v3.4.2, Spring v6.2.2",
+                "level": "DEBUG",
+                "package": "c.e.t.TriomicsApplicationTests",
+                "file": "StartupInfoLogger.java",
+                "line": "54",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:11:46.155+0530",
+                "message": "No active profile set, falling back to 1 default profile: "default"",
+                "level": "INFO",
+                "package": "c.e.t.TriomicsApplicationTests",
+                "file": "SpringApplication.java",
+                "line": "652",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:11:46.507+0530",
+                "message": "Bootstrapping Spring Data JPA repositories in DEFAULT mode.",
+                "level": "INFO",
+                "package": "o.s.d.r.c.RepositoryConfigurationDelegate",
+                "file": "RepositoryConfigurationDelegate.java",
+                "line": "143",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:11:46.537+0530",
+                "message": "Finished Spring Data repository scanning in 24 ms. Found 1 JPA repository interface.",
+                "level": "INFO",
+                "package": "o.s.d.r.c.RepositoryConfigurationDelegate",
+                "file": "RepositoryConfigurationDelegate.java",
+                "line": "211",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:11:46.808+0530",
+                "message": "HHH000204: Processing PersistenceUnitInfo [name: default]",
+                "level": "INFO",
+                "package": "o.h.j.i.u.LogHelper",
+                "file": "LogHelper.java",
+                "line": "31",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:11:46.836+0530",
+                "message": "HHH000412: Hibernate ORM core version 6.6.5.Final",
+                "level": "INFO",
+                "package": "o.h.Version",
+                "file": "Version.java",
+                "line": "44",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:11:46.855+0530",
+                "message": "HHH000026: Second-level cache disabled",
+                "level": "INFO",
+                "package": "o.h.c.i.RegionFactoryInitiator",
+                "file": "RegionFactoryInitiator.java",
+                "line": "50",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:11:46.980+0530",
+                "message": "No LoadTimeWeaver setup: ignoring JPA class transformer",
+                "level": "INFO",
+                "package": "o.s.o.j.p.SpringPersistenceUnitInfo",
+                "file": "SpringPersistenceUnitInfo.java",
+                "line": "87",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:11:47.136+0530",
+                "message": "HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown",
+                "level": "INFO",
+                "package": "o.h.o.c.pooling",
+                "file": "JdbcEnvironmentInitiator.java",
+                "line": "157",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:11:47.539+0530",
+                "message": "HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)",
+                "level": "INFO",
+                "package": "o.h.e.t.j.p.i.JtaPlatformInitiator",
+                "file": "JtaPlatformInitiator.java",
+                "line": "59",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:11:47.576+0530",
+                "message": "Initialized JPA EntityManagerFactory for persistence unit 'default'",
+                "level": "INFO",
+                "package": "o.s.o.j.LocalContainerEntityManagerFactoryBean",
+                "file": "AbstractEntityManagerFactoryBean.java",
+                "line": "447",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:11:47.822+0530",
+                "message": "spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning",
+                "level": "WARN",
+                "package": "o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration",
+                "file": "JpaBaseConfiguration.java",
+                "line": "241",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:11:48.097+0530",
+                "message": "Started TriomicsApplicationTests in 2.113 seconds (process running for 2.879)",
+                "level": "INFO",
+                "package": "c.e.t.TriomicsApplicationTests",
+                "file": "StartupInfoLogger.java",
+                "line": "59",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:11:48.451+0530",
+                "message": "Closing JPA EntityManagerFactory for persistence unit 'default'",
+                "level": "INFO",
+                "package": "o.s.o.j.LocalContainerEntityManagerFactoryBean",
+                "file": "AbstractEntityManagerFactoryBean.java",
+                "line": "660",
+                "traceId": "",
+                "stackTrace": ""
+            }2025-01-28 04:12:11 [INFO] [c.e.t.TriomicsApplication] [StartupInfoLogger.java:53] Starting TriomicsApplication v0.0.1-SNAPSHOT using Java 21.0.5 with PID 513870 (/home/panda/pr/triomics/target/triomics-0.0.1-SNAPSHOT.jar started by panda in /home/panda/pr/triomics)
+2025-01-28 04:12:11 [DEBUG] [c.e.t.TriomicsApplication] [StartupInfoLogger.java:54] Running with Spring Boot v3.4.2, Spring v6.2.2
+2025-01-28 04:12:11 [INFO] [c.e.t.TriomicsApplication] [SpringApplication.java:652] No active profile set, falling back to 1 default profile: "default"
+2025-01-28 04:12:11 [INFO] [o.s.d.r.c.RepositoryConfigurationDelegate] [RepositoryConfigurationDelegate.java:143] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-28 04:12:11 [INFO] [o.s.d.r.c.RepositoryConfigurationDelegate] [RepositoryConfigurationDelegate.java:211] Finished Spring Data repository scanning in 27 ms. Found 1 JPA repository interface.
+2025-01-28 04:12:12 [INFO] [o.s.b.w.e.t.TomcatWebServer] [TomcatWebServer.java:111] Tomcat initialized with port 8080 (http)
+2025-01-28 04:12:12 [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext] [ServletWebServerApplicationContext.java:296] Root WebApplicationContext: initialization completed in 757 ms
+2025-01-28 04:12:12 [DEBUG] [c.e.t.u.LoggingFilter] [GenericFilterBean.java:240] Filter 'loggingFilter' configured for use
+2025-01-28 04:12:12 [INFO] [o.h.j.i.u.LogHelper] [LogHelper.java:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-28 04:12:12 [INFO] [o.h.Version] [Version.java:44] HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-01-28 04:12:12 [INFO] [o.h.c.i.RegionFactoryInitiator] [RegionFactoryInitiator.java:50] HHH000026: Second-level cache disabled
+2025-01-28 04:12:12 [INFO] [o.s.o.j.p.SpringPersistenceUnitInfo] [SpringPersistenceUnitInfo.java:87] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-28 04:12:12 [INFO] [o.h.o.c.pooling] [JdbcEnvironmentInitiator.java:157] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-01-28 04:12:13 [INFO] [o.h.e.t.j.p.i.JtaPlatformInitiator] [JtaPlatformInitiator.java:59] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-28 04:12:13 [INFO] [o.s.o.j.LocalContainerEntityManagerFactoryBean] [AbstractEntityManagerFactoryBean.java:447] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-28 04:12:13 [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] [JpaBaseConfiguration.java:241] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-28 04:12:13 [INFO] [o.s.b.w.e.t.TomcatWebServer] [TomcatWebServer.java:243] Tomcat started on port 8080 (http) with context path '/'
+2025-01-28 04:12:13 [INFO] [c.e.t.TriomicsApplication] [StartupInfoLogger.java:59] Started TriomicsApplication in 2.528 seconds (process running for 3.071)
+2025-01-28 04:12:47 [INFO] [o.s.w.s.DispatcherServlet] [FrameworkServlet.java:532] Initializing Servlet 'dispatcherServlet'
+2025-01-28 04:12:47 [INFO] [o.s.w.s.DispatcherServlet] [FrameworkServlet.java:554] Completed initialization in 1 ms
+2025-01-28 04:12:47 [INFO] [c.e.t.c.PersonController] [PersonController.java:31] This is an info message.
+2025-01-28 04:12:47 [DEBUG] [c.e.t.c.PersonController] [PersonController.java:32] This is a debug message.
+2025-01-28 04:12:47 [ERROR] [c.e.t.c.PersonController] [PersonController.java:33] This is an error message.
+dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+2025-01-28 04:13:46 [INFO] [c.e.t.c.PersonController] [PersonController.java:31] This is an info message.
+2025-01-28 04:13:46 [DEBUG] [c.e.t.c.PersonController] [PersonController.java:32] This is a debug message.
+2025-01-28 04:13:46 [ERROR] [c.e.t.c.PersonController] [PersonController.java:33] This is an error message.
+2025-01-28 04:14:49 [INFO] [o.s.b.w.e.t.GracefulShutdown] [GracefulShutdown.java:54] Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-28 04:14:49 [INFO] [o.s.b.w.e.t.GracefulShutdown] [GracefulShutdown.java:76] Graceful shutdown complete
+2025-01-28 04:14:49 [INFO] [o.s.o.j.LocalContainerEntityManagerFactoryBean] [AbstractEntityManagerFactoryBean.java:660] Closing JPA EntityManagerFactory for persistence unit 'default'
+{
+                "timestamp": "2025-01-28T04:14:56.436+0530",
+                "message": "Starting TriomicsApplication v0.0.1-SNAPSHOT using Java 21.0.5 with PID 515972 (/home/panda/pr/triomics/target/triomics-0.0.1-SNAPSHOT.jar started by panda in /home/panda/pr/triomics)",
+                "level": "INFO",
+                "package": "c.e.t.TriomicsApplication",
+                "file": "StartupInfoLogger.java",
+                "line": "53",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:14:56.442+0530",
+                "message": "Running with Spring Boot v3.4.2, Spring v6.2.2",
+                "level": "DEBUG",
+                "package": "c.e.t.TriomicsApplication",
+                "file": "StartupInfoLogger.java",
+                "line": "54",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:14:56.443+0530",
+                "message": "No active profile set, falling back to 1 default profile: "default"",
+                "level": "INFO",
+                "package": "c.e.t.TriomicsApplication",
+                "file": "SpringApplication.java",
+                "line": "652",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:14:56.834+0530",
+                "message": "Bootstrapping Spring Data JPA repositories in DEFAULT mode.",
+                "level": "INFO",
+                "package": "o.s.d.r.c.RepositoryConfigurationDelegate",
+                "file": "RepositoryConfigurationDelegate.java",
+                "line": "143",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:14:56.869+0530",
+                "message": "Finished Spring Data repository scanning in 31 ms. Found 1 JPA repository interface.",
+                "level": "INFO",
+                "package": "o.s.d.r.c.RepositoryConfigurationDelegate",
+                "file": "RepositoryConfigurationDelegate.java",
+                "line": "211",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:14:57.176+0530",
+                "message": "Tomcat initialized with port 8080 (http)",
+                "level": "INFO",
+                "package": "o.s.b.w.e.t.TomcatWebServer",
+                "file": "TomcatWebServer.java",
+                "line": "111",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:14:57.210+0530",
+                "message": "Root WebApplicationContext: initialization completed in 731 ms",
+                "level": "INFO",
+                "package": "o.s.b.w.s.c.ServletWebServerApplicationContext",
+                "file": "ServletWebServerApplicationContext.java",
+                "line": "296",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:14:57.255+0530",
+                "message": "Filter 'loggingFilter' configured for use",
+                "level": "DEBUG",
+                "package": "c.e.t.u.LoggingFilter",
+                "file": "GenericFilterBean.java",
+                "line": "240",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:14:57.382+0530",
+                "message": "HHH000204: Processing PersistenceUnitInfo [name: default]",
+                "level": "INFO",
+                "package": "o.h.j.i.u.LogHelper",
+                "file": "LogHelper.java",
+                "line": "31",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:14:57.425+0530",
+                "message": "HHH000412: Hibernate ORM core version 6.6.5.Final",
+                "level": "INFO",
+                "package": "o.h.Version",
+                "file": "Version.java",
+                "line": "44",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:14:57.455+0530",
+                "message": "HHH000026: Second-level cache disabled",
+                "level": "INFO",
+                "package": "o.h.c.i.RegionFactoryInitiator",
+                "file": "RegionFactoryInitiator.java",
+                "line": "50",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:14:57.670+0530",
+                "message": "No LoadTimeWeaver setup: ignoring JPA class transformer",
+                "level": "INFO",
+                "package": "o.s.o.j.p.SpringPersistenceUnitInfo",
+                "file": "SpringPersistenceUnitInfo.java",
+                "line": "87",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:14:57.847+0530",
+                "message": "HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown",
+                "level": "INFO",
+                "package": "o.h.o.c.pooling",
+                "file": "JdbcEnvironmentInitiator.java",
+                "line": "157",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:14:58.257+0530",
+                "message": "HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)",
+                "level": "INFO",
+                "package": "o.h.e.t.j.p.i.JtaPlatformInitiator",
+                "file": "JtaPlatformInitiator.java",
+                "line": "59",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:14:58.285+0530",
+                "message": "Initialized JPA EntityManagerFactory for persistence unit 'default'",
+                "level": "INFO",
+                "package": "o.s.o.j.LocalContainerEntityManagerFactoryBean",
+                "file": "AbstractEntityManagerFactoryBean.java",
+                "line": "447",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:14:58.428+0530",
+                "message": "spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning",
+                "level": "WARN",
+                "package": "o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration",
+                "file": "JpaBaseConfiguration.java",
+                "line": "241",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:14:58.666+0530",
+                "message": "Tomcat started on port 8080 (http) with context path '/'",
+                "level": "INFO",
+                "package": "o.s.b.w.e.t.TomcatWebServer",
+                "file": "TomcatWebServer.java",
+                "line": "243",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:14:58.672+0530",
+                "message": "Started TriomicsApplication in 2.474 seconds (process running for 3.082)",
+                "level": "INFO",
+                "package": "c.e.t.TriomicsApplication",
+                "file": "StartupInfoLogger.java",
+                "line": "59",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:15:05.038+0530",
+                "message": "Commencing graceful shutdown. Waiting for active requests to complete",
+                "level": "INFO",
+                "package": "o.s.b.w.e.t.GracefulShutdown",
+                "file": "GracefulShutdown.java",
+                "line": "54",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:15:05.043+0530",
+                "message": "Graceful shutdown complete",
+                "level": "INFO",
+                "package": "o.s.b.w.e.t.GracefulShutdown",
+                "file": "GracefulShutdown.java",
+                "line": "76",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:15:05.049+0530",
+                "message": "Closing JPA EntityManagerFactory for persistence unit 'default'",
+                "level": "INFO",
+                "package": "o.s.o.j.LocalContainerEntityManagerFactoryBean",
+                "file": "AbstractEntityManagerFactoryBean.java",
+                "line": "660",
+                "traceId": "",
+                "stackTrace": ""
+            }2025-01-28 04:15:14 [INFO] Starting TriomicsApplication v0.0.1-SNAPSHOT using Java 21.0.5 with PID 516316 (/home/panda/pr/triomics/target/triomics-0.0.1-SNAPSHOT.jar started by panda in /home/panda/pr/triomics)
+2025-01-28 04:15:14 [DEBUG] Running with Spring Boot v3.4.2, Spring v6.2.2
+2025-01-28 04:15:14 [INFO] No active profile set, falling back to 1 default profile: "default"
+2025-01-28 04:15:14 [INFO] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-28 04:15:14 [INFO] Finished Spring Data repository scanning in 33 ms. Found 1 JPA repository interface.
+2025-01-28 04:15:15 [INFO] Tomcat initialized with port 8080 (http)
+2025-01-28 04:15:15 [INFO] Root WebApplicationContext: initialization completed in 715 ms
+2025-01-28 04:15:15 [DEBUG] Filter 'loggingFilter' configured for use
+2025-01-28 04:15:15 [INFO] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-28 04:15:15 [INFO] HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-01-28 04:15:15 [INFO] HHH000026: Second-level cache disabled
+2025-01-28 04:15:15 [INFO] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-28 04:15:15 [INFO] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-01-28 04:15:16 [INFO] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-28 04:15:16 [INFO] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-28 04:15:16 [WARN] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-28 04:15:16 [INFO] Tomcat started on port 8080 (http) with context path '/'
+2025-01-28 04:15:16 [INFO] Started TriomicsApplication in 2.386 seconds (process running for 2.931)
+2025-01-28 04:39:46 [INFO] Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-28 04:39:46 [INFO] Graceful shutdown complete
+2025-01-28 04:39:46 [INFO] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-28 04:39:56 [INFO] Could not detect default configuration classes for test class [com.example.triomics.TriomicsApplicationTests]: TriomicsApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-01-28 04:39:56 [INFO] Found @SpringBootConfiguration com.example.triomics.TriomicsApplication for test class com.example.triomics.TriomicsApplicationTests
+2025-01-28 04:39:56 [INFO] Restart disabled due to context in which it is running
+2025-01-28 04:39:56 [INFO] Starting TriomicsApplicationTests using Java 21.0.5 with PID 533642 (started by panda in /home/panda/pr/triomics)
+2025-01-28 04:39:56 [DEBUG] Running with Spring Boot v3.4.2, Spring v6.2.2
+2025-01-28 04:39:56 [INFO] No active profile set, falling back to 1 default profile: "default"
+2025-01-28 04:39:56 [INFO] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-28 04:39:57 [INFO] Finished Spring Data repository scanning in 28 ms. Found 1 JPA repository interface.
+2025-01-28 04:39:57 [INFO] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-28 04:39:57 [INFO] HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-01-28 04:39:57 [INFO] HHH000026: Second-level cache disabled
+2025-01-28 04:39:57 [INFO] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-28 04:39:57 [INFO] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-01-28 04:39:58 [INFO] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-28 04:39:58 [INFO] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-28 04:39:58 [WARN] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-28 04:39:58 [INFO] Started TriomicsApplicationTests in 2.004 seconds (process running for 2.69)
+2025-01-28 04:39:58 [INFO] Closing JPA EntityManagerFactory for persistence unit 'default'
+{
+                "timestamp": "2025-01-28T04:40:08.550+0530",
+                "message": "Starting TriomicsApplication v0.0.1-SNAPSHOT using Java 21.0.5 with PID 533942 (/home/panda/pr/triomics/target/triomics-0.0.1-SNAPSHOT.jar started by panda in /home/panda/pr/triomics)",
+                "level": "INFO",
+                "package": "c.e.t.TriomicsApplication",
+                "file": "StartupInfoLogger.java",
+                "line": "53",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:40:08.559+0530",
+                "message": "Running with Spring Boot v3.4.2, Spring v6.2.2",
+                "level": "DEBUG",
+                "package": "c.e.t.TriomicsApplication",
+                "file": "StartupInfoLogger.java",
+                "line": "54",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:40:08.560+0530",
+                "message": "No active profile set, falling back to 1 default profile: "default"",
+                "level": "INFO",
+                "package": "c.e.t.TriomicsApplication",
+                "file": "SpringApplication.java",
+                "line": "652",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:40:09.005+0530",
+                "message": "Bootstrapping Spring Data JPA repositories in DEFAULT mode.",
+                "level": "INFO",
+                "package": "o.s.d.r.c.RepositoryConfigurationDelegate",
+                "file": "RepositoryConfigurationDelegate.java",
+                "line": "143",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:40:09.042+0530",
+                "message": "Finished Spring Data repository scanning in 27 ms. Found 1 JPA repository interface.",
+                "level": "INFO",
+                "package": "o.s.d.r.c.RepositoryConfigurationDelegate",
+                "file": "RepositoryConfigurationDelegate.java",
+                "line": "211",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:40:09.330+0530",
+                "message": "Tomcat initialized with port 8080 (http)",
+                "level": "INFO",
+                "package": "o.s.b.w.e.t.TomcatWebServer",
+                "file": "TomcatWebServer.java",
+                "line": "111",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:40:09.365+0530",
+                "message": "Root WebApplicationContext: initialization completed in 765 ms",
+                "level": "INFO",
+                "package": "o.s.b.w.s.c.ServletWebServerApplicationContext",
+                "file": "ServletWebServerApplicationContext.java",
+                "line": "296",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:40:09.403+0530",
+                "message": "Filter 'loggingFilter' configured for use",
+                "level": "DEBUG",
+                "package": "c.e.t.u.LoggingFilter",
+                "file": "GenericFilterBean.java",
+                "line": "240",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:40:09.498+0530",
+                "message": "HHH000204: Processing PersistenceUnitInfo [name: default]",
+                "level": "INFO",
+                "package": "o.h.j.i.u.LogHelper",
+                "file": "LogHelper.java",
+                "line": "31",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:40:09.536+0530",
+                "message": "HHH000412: Hibernate ORM core version 6.6.5.Final",
+                "level": "INFO",
+                "package": "o.h.Version",
+                "file": "Version.java",
+                "line": "44",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:40:09.561+0530",
+                "message": "HHH000026: Second-level cache disabled",
+                "level": "INFO",
+                "package": "o.h.c.i.RegionFactoryInitiator",
+                "file": "RegionFactoryInitiator.java",
+                "line": "50",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:40:09.734+0530",
+                "message": "No LoadTimeWeaver setup: ignoring JPA class transformer",
+                "level": "INFO",
+                "package": "o.s.o.j.p.SpringPersistenceUnitInfo",
+                "file": "SpringPersistenceUnitInfo.java",
+                "line": "87",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:40:09.978+0530",
+                "message": "HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown",
+                "level": "INFO",
+                "package": "o.h.o.c.pooling",
+                "file": "JdbcEnvironmentInitiator.java",
+                "line": "157",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:40:10.444+0530",
+                "message": "HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)",
+                "level": "INFO",
+                "package": "o.h.e.t.j.p.i.JtaPlatformInitiator",
+                "file": "JtaPlatformInitiator.java",
+                "line": "59",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:40:10.481+0530",
+                "message": "Initialized JPA EntityManagerFactory for persistence unit 'default'",
+                "level": "INFO",
+                "package": "o.s.o.j.LocalContainerEntityManagerFactoryBean",
+                "file": "AbstractEntityManagerFactoryBean.java",
+                "line": "447",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:40:10.629+0530",
+                "message": "spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning",
+                "level": "WARN",
+                "package": "o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration",
+                "file": "JpaBaseConfiguration.java",
+                "line": "241",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:40:10.994+0530",
+                "message": "Tomcat started on port 8080 (http) with context path '/'",
+                "level": "INFO",
+                "package": "o.s.b.w.e.t.TomcatWebServer",
+                "file": "TomcatWebServer.java",
+                "line": "243",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:40:11.003+0530",
+                "message": "Started TriomicsApplication in 2.707 seconds (process running for 3.376)",
+                "level": "INFO",
+                "package": "c.e.t.TriomicsApplication",
+                "file": "StartupInfoLogger.java",
+                "line": "59",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:40:19.293+0530",
+                "message": "Initializing Servlet 'dispatcherServlet'",
+                "level": "INFO",
+                "package": "o.s.w.s.DispatcherServlet",
+                "file": "FrameworkServlet.java",
+                "line": "532",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:40:19.294+0530",
+                "message": "Completed initialization in 0 ms",
+                "level": "INFO",
+                "package": "o.s.w.s.DispatcherServlet",
+                "file": "FrameworkServlet.java",
+                "line": "554",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:40:19.315+0530",
+                "message": "This is an info message.",
+                "level": "INFO",
+                "package": "c.e.t.c.PersonController",
+                "file": "PersonController.java",
+                "line": "31",
+                "traceId": "389fe6aa-1b7d-45dd-bb17-3bbab0711ded",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:40:19.315+0530",
+                "message": "This is a debug message.",
+                "level": "DEBUG",
+                "package": "c.e.t.c.PersonController",
+                "file": "PersonController.java",
+                "line": "32",
+                "traceId": "389fe6aa-1b7d-45dd-bb17-3bbab0711ded",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:40:19.315+0530",
+                "message": "This is an error message.",
+                "level": "ERROR",
+                "package": "c.e.t.c.PersonController",
+                "file": "PersonController.java",
+                "line": "33",
+                "traceId": "389fe6aa-1b7d-45dd-bb17-3bbab0711ded",
+                "stackTrace": " java.lang.Exception: This is an exception
+	at com.example.triomics.controllers.PersonController.getAllPersons(PersonController.java:33)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:257)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at com.example.triomics.utils.LoggingFilter.doFilterInternal(LoggingFilter.java:28)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+"
+            }{
+                "timestamp": "2025-01-28T04:41:44.148+0530",
+                "message": "Commencing graceful shutdown. Waiting for active requests to complete",
+                "level": "INFO",
+                "package": "o.s.b.w.e.t.GracefulShutdown",
+                "file": "GracefulShutdown.java",
+                "line": "54",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:41:44.153+0530",
+                "message": "Graceful shutdown complete",
+                "level": "INFO",
+                "package": "o.s.b.w.e.t.GracefulShutdown",
+                "file": "GracefulShutdown.java",
+                "line": "76",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T04:41:44.158+0530",
+                "message": "Closing JPA EntityManagerFactory for persistence unit 'default'",
+                "level": "INFO",
+                "package": "o.s.o.j.LocalContainerEntityManagerFactoryBean",
+                "file": "AbstractEntityManagerFactoryBean.java",
+                "line": "660",
+                "traceId": "",
+                "stackTrace": ""
+            }

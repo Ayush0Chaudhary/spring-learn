@@ -3,6 +3,8 @@ package com.example.triomics.controllers;
 
 import lombok.RequiredArgsConstructor;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -17,7 +19,7 @@ import java.util.List;
 @RequiredArgsConstructor
 public class PersonController {
     private final PersonService personService;
-
+    private static final Logger logger = LogManager.getLogger(PersonController.class);
     @PostMapping
     public ResponseEntity<Person> createPerson(@RequestBody PersonDTO personDTO) {
         return ResponseEntity.ok(personService.createPerson(personDTO));
@@ -25,6 +27,10 @@ public class PersonController {
 
     @GetMapping
     public ResponseEntity<List<PersonDTO>> getAllPersons() {
+
+        logger.info("This is an info message.");
+        logger.debug("This is a debug message.");
+        logger.error("This is an error message.", new Exception("This is an exception"));
         return ResponseEntity.ok(personService.getAllPersons());
     }
 

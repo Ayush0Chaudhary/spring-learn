@@ -1,0 +1,56 @@
+2025-01-28 04:08:49 [INFO] Could not detect default configuration classes for test class [com.example.triomics.TriomicsApplicationTests]: TriomicsApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-01-28 04:08:49 [INFO] Found @SpringBootConfiguration com.example.triomics.TriomicsApplication for test class com.example.triomics.TriomicsApplicationTests
+2025-01-28 04:08:49 [INFO] Restart disabled due to context in which it is running
+2025-01-28 04:08:49 [INFO] Starting TriomicsApplicationTests using Java 21.0.5 with PID 510246 (started by panda in /home/panda/pr/triomics)
+2025-01-28 04:08:49 [DEBUG] Running with Spring Boot v3.4.2, Spring v6.2.2
+2025-01-28 04:08:49 [INFO] No active profile set, falling back to 1 default profile: "default"
+2025-01-28 04:08:50 [INFO] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-28 04:08:50 [INFO] Finished Spring Data repository scanning in 27 ms. Found 1 JPA repository interface.
+2025-01-28 04:08:50 [INFO] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-28 04:08:50 [INFO] HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-01-28 04:08:50 [INFO] HHH000026: Second-level cache disabled
+2025-01-28 04:08:50 [INFO] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-28 04:08:50 [INFO] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-01-28 04:08:51 [INFO] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-28 04:08:51 [INFO] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-28 04:08:51 [WARN] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-28 04:08:51 [INFO] Started TriomicsApplicationTests in 2.071 seconds (process running for 2.735)
+2025-01-28 04:08:51 [INFO] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-28 04:08:58 [INFO] Starting TriomicsApplication using Java 17.0.13 with PID 510591 (/home/panda/pr/triomics/target/classes started by panda in /home/panda/pr/triomics)
+2025-01-28 04:08:58 [DEBUG] Running with Spring Boot v3.4.2, Spring v6.2.2
+2025-01-28 04:08:58 [INFO] No active profile set, falling back to 1 default profile: "default"
+2025-01-28 04:08:58 [INFO] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-01-28 04:08:58 [INFO] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-01-28 04:08:58 [INFO] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-28 04:08:58 [INFO] Finished Spring Data repository scanning in 46 ms. Found 1 JPA repository interface.
+2025-01-28 04:08:59 [INFO] Tomcat initialized with port 8080 (http)
+2025-01-28 04:08:59 [INFO] Root WebApplicationContext: initialization completed in 789 ms
+2025-01-28 04:08:59 [DEBUG] Filter 'loggingFilter' configured for use
+2025-01-28 04:08:59 [INFO] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-28 04:08:59 [INFO] HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-01-28 04:08:59 [INFO] HHH000026: Second-level cache disabled
+2025-01-28 04:08:59 [INFO] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-28 04:08:59 [INFO] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-01-28 04:09:00 [INFO] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-28 04:09:00 [INFO] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-28 04:09:00 [WARN] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-28 04:09:00 [INFO] LiveReload server is running on port 35729
+2025-01-28 04:09:00 [INFO] Tomcat started on port 8080 (http) with context path '/'
+2025-01-28 04:09:00 [INFO] Started TriomicsApplication in 2.473 seconds (process running for 2.864)
+2025-01-28 04:09:20 [INFO] Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-28 04:09:20 [INFO] Graceful shutdown complete
+2025-01-28 04:09:20 [INFO] Closing JPA EntityManagerFactory for persistence unit 'default'
