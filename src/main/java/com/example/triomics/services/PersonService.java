@@ -14,6 +14,25 @@ import com.example.triomics.repositories.PersonRepository;
 import java.util.List;
 import java.util.stream.Collectors;
 
+/**
+ * Service class for managing Person entities.
+ * Provides methods for creating, retrieving, updating, and deleting Person records.
+ * Utilizes PersonRepository for database operations and maps between Person and PersonDTO.
+ * 
+ * Annotations:
+ * - @Service: Indicates that this class is a Spring service component.
+ * - @Slf4j: Provides a logger instance for logging purposes.
+ * - @RequiredArgsConstructor: Generates a constructor with required arguments (final fields).
+ * 
+ * Methods:
+ * - createPerson(PersonDTO personDTO): Creates a new Person entity from the provided PersonDTO and saves it to the database.
+ * - getAllPersons(): Retrieves all Person entities from the database and maps them to PersonDTOs.
+ * - getPersonById(Long id): Retrieves a Person entity by its ID and maps it to a PersonDTO. Throws ResourceNotFoundException if not found.
+ * - updatePerson(Long id, PersonDTO personDTO): Updates an existing Person entity with the provided PersonDTO data. Throws ResourceNotFoundException if not found.
+ * - deletePerson(Long id): Deletes a Person entity by its ID. Throws ResourceNotFoundException if not found.
+ * - toEntity(PersonDTO dto): Converts a PersonDTO to a Person entity.
+ * - toDTO(Person entity): Converts a Person entity to a PersonDTO.
+ */
 @Service
 @Slf4j
 @RequiredArgsConstructor

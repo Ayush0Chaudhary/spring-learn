@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Configuration status="WARN">
+    <!-- Define properties for log patterns -->
     <Properties>
-        <!-- Log format definitions -->
+        <!-- Minimal log pattern: only the message -->
         <Property name="logPatternMinimal">%m%n</Property>
+        
+        <!-- Simple log pattern: timestamp, log level, and message -->
         <Property name="logPatternSimple">%d{yyyy-MM-dd HH:mm:ss} [%p] %m%n</Property>
+        
+        <!-- Verbose log pattern: timestamp, log level, logger name, file name, line number, and message -->
         <Property name="logPatternVerbose">%d{yyyy-MM-dd HH:mm:ss} [%p] [%c{1.}] [%F:%L] %m%n</Property>
+        
+        <!-- JSON log pattern: structured log in JSON format -->
         <Property name="logPatternJson">
             {
                 "timestamp": "%d{yyyy-MM-dd'T'HH:mm:ss.SSSZ}",
@@ -18,24 +25,24 @@
             }
         </Property>
 
-        <!-- Default log pattern (can be overridden at runtime using -DlogPattern) -->
+        <!-- Default log pattern, can be overridden at runtime using -DlogPattern -->
         <Property name="defaultLogPattern">${sys:logPattern:-logPatternSimple}</Property>
     </Properties>
 
     <Appenders>
-        <!-- Console appender -->
+        <!-- Console appender: logs to the console -->
         <Console name="Console" target="SYSTEM_OUT">
             <PatternLayout pattern="${${defaultLogPattern}}" />
         </Console>
 
-        <!-- File appender to save logs to a file -->
+        <!-- File appender: logs to a file -->
         <File name="FileLogger" fileName="logs/app-json.log" append="true">
             <PatternLayout pattern="${${defaultLogPattern}}" />
         </File>
     </Appenders>
 
     <Loggers>
-        <!-- Root logger -->
+        <!-- Root logger: applies to all loggers unless overridden -->
         <Root level="info">
             <AppenderRef ref="Console" />
             <AppenderRef ref="FileLogger" />
