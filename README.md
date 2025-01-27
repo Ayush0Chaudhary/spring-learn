@@ -2,7 +2,7 @@
 
 ## Setup Guide
 
-### 2. Clone the Repository
+### 1. Clone the Repository
 
 If you haven't already cloned the repository, use the following command:
 
@@ -11,7 +11,7 @@ git clone https://github.com/Ayush0Chaudhary/spring-learn.git
 cd triomics
 ```
 
-### 3. Configure the Environment
+### 2. Configure the Environment
 
 #### Set Up the Database:
 
@@ -30,7 +30,7 @@ cd triomics
 
 The application uses Log4j2. Ensure the `log4j2.xml` file in `src/main/resources` is configured correctly.
 
-### 4. Build the Project
+### 3. Build the Project
 
 Use Maven to build the project:
 
@@ -38,14 +38,14 @@ Use Maven to build the project:
 ./mvnw clean package
 ```
 
-### 5. Run the Application
+### 4. Run the Application
 
 To start the Spring Boot application:
 
 ```sh
 java -DlogPattern=logPatternJson -jar target/triomics-0.0.1-SNAPSHOT.jar
 ```
-### Log Pattern Configuration
+### Log Pattern Configuration (Instructions to configure logging modes.)
 
 The `-DlogPattern` option allows you to specify the logging pattern for the application. Here are the available options and their defaults:
 - `logPatternMinimal`: This pattern logs only the message. The default pattern is:
@@ -92,10 +92,87 @@ java -DlogPattern=logPatternJson -jar target/triomics-0.0.1-SNAPSHOT.jar
 - Base URL: `http://localhost:8080`
 - API Endpoints:
     - `POST /api/v1/persons` - Create a new person
+    ```json
+    // exmaple req body
+    {
+        "name" : "Mohan Lalu",
+        "dob" : "2024-12-12T00:00:00",
+        "email" : "ayush@gmail.com",
+        "address": "Hhhhh"
+    }
+    ```
+    The response body
+    ```json
+    // example res body
+    {
+        "id": 4,
+        "name": "Mohan Lalu",
+        "dob": "2024-12-12T00:00:00",
+        "email": "ayush@gmail.com",
+        "address": "Hhhhh"
+    }
+    ```
+    
     - `GET /api/v1/persons` - Retrieve all persons
+
+    ```json
+        // example res body
+        [{
+            "name": "Mohan Lal",
+            "dob": "2024-12-12T00:00:00",
+            "email": "ayushd@gmail.com",
+            "address": "Hhhhh"
+        },
+        {
+            "name": "Mohan Lalu",
+            "dob": "2024-12-12T00:00:00",
+            "email": "ayush@gmail.com",
+            "address": "Hhhhh"
+        }]
+    ```
+
+
     - `GET /api/v1/persons/{id}` - Retrieve a person by ID
+    ```json
+    // res body, http://localhost:8080/api/v1/persons/1
+        {
+            "name": "Mohan Lal",
+            "dob": "2024-12-12T00:00:00",
+            "email": "ayush@gmail.com",
+            "address": "Hhhhh"
+        }
+    ```
+
+
     - `PUT /api/v1/persons/{id}` - Update a person by ID
+    ```json
+    // req body
+    {
+        "name" : "Samosa Singh",
+        "dob" : "2024-12-12T00:00:00",
+        "email" : "ayush@gmail.com",
+        "address": "Moon"
+    }
+
+    ```
+
+    ```json
+    // res body
+
+    {
+        "id": 1,
+        "name": "Samosa Singh",
+        "dob": "2024-12-12T00:00:00",
+        "email": "ayush@gmail.com",
+        "address": "Moon"
+    }
+    ```
+
     - `DELETE /api/v1/persons/{id}` - Delete a person by ID
+    
+    ```
+    // NO res  // ->>> http://localhost:8080/api/v1/persons/1
+    ```
 
 ### 7. Run Tests
 

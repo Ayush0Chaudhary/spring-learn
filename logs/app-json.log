@@ -1602,4 +1602,299 @@ dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
                 "line": "660",
                 "traceId": "",
                 "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T05:16:30.083+0530",
+                "message": "Starting TriomicsApplication v0.0.1-SNAPSHOT using Java 21.0.5 with PID 566261 (/home/panda/pr/triomics/target/triomics-0.0.1-SNAPSHOT.jar started by panda in /home/panda/pr/triomics)",
+                "level": "INFO",
+                "package": "c.e.t.TriomicsApplication",
+                "file": "StartupInfoLogger.java",
+                "line": "53",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T05:16:30.088+0530",
+                "message": "Running with Spring Boot v3.4.2, Spring v6.2.2",
+                "level": "DEBUG",
+                "package": "c.e.t.TriomicsApplication",
+                "file": "StartupInfoLogger.java",
+                "line": "54",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T05:16:30.089+0530",
+                "message": "No active profile set, falling back to 1 default profile: "default"",
+                "level": "INFO",
+                "package": "c.e.t.TriomicsApplication",
+                "file": "SpringApplication.java",
+                "line": "652",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T05:16:30.481+0530",
+                "message": "Bootstrapping Spring Data JPA repositories in DEFAULT mode.",
+                "level": "INFO",
+                "package": "o.s.d.r.c.RepositoryConfigurationDelegate",
+                "file": "RepositoryConfigurationDelegate.java",
+                "line": "143",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T05:16:30.516+0530",
+                "message": "Finished Spring Data repository scanning in 30 ms. Found 1 JPA repository interface.",
+                "level": "INFO",
+                "package": "o.s.d.r.c.RepositoryConfigurationDelegate",
+                "file": "RepositoryConfigurationDelegate.java",
+                "line": "211",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T05:16:30.822+0530",
+                "message": "Tomcat initialized with port 8080 (http)",
+                "level": "INFO",
+                "package": "o.s.b.w.e.t.TomcatWebServer",
+                "file": "TomcatWebServer.java",
+                "line": "111",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T05:16:30.853+0530",
+                "message": "Root WebApplicationContext: initialization completed in 738 ms",
+                "level": "INFO",
+                "package": "o.s.b.w.s.c.ServletWebServerApplicationContext",
+                "file": "ServletWebServerApplicationContext.java",
+                "line": "296",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T05:16:30.891+0530",
+                "message": "Filter 'loggingFilter' configured for use",
+                "level": "DEBUG",
+                "package": "c.e.t.u.LoggingFilter",
+                "file": "GenericFilterBean.java",
+                "line": "240",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T05:16:31.006+0530",
+                "message": "HHH000204: Processing PersistenceUnitInfo [name: default]",
+                "level": "INFO",
+                "package": "o.h.j.i.u.LogHelper",
+                "file": "LogHelper.java",
+                "line": "31",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T05:16:31.044+0530",
+                "message": "HHH000412: Hibernate ORM core version 6.6.5.Final",
+                "level": "INFO",
+                "package": "o.h.Version",
+                "file": "Version.java",
+                "line": "44",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T05:16:31.073+0530",
+                "message": "HHH000026: Second-level cache disabled",
+                "level": "INFO",
+                "package": "o.h.c.i.RegionFactoryInitiator",
+                "file": "RegionFactoryInitiator.java",
+                "line": "50",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T05:16:31.250+0530",
+                "message": "No LoadTimeWeaver setup: ignoring JPA class transformer",
+                "level": "INFO",
+                "package": "o.s.o.j.p.SpringPersistenceUnitInfo",
+                "file": "SpringPersistenceUnitInfo.java",
+                "line": "87",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T05:16:31.462+0530",
+                "message": "HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown",
+                "level": "INFO",
+                "package": "o.h.o.c.pooling",
+                "file": "JdbcEnvironmentInitiator.java",
+                "line": "157",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T05:16:31.883+0530",
+                "message": "HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)",
+                "level": "INFO",
+                "package": "o.h.e.t.j.p.i.JtaPlatformInitiator",
+                "file": "JtaPlatformInitiator.java",
+                "line": "59",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T05:16:31.915+0530",
+                "message": "Initialized JPA EntityManagerFactory for persistence unit 'default'",
+                "level": "INFO",
+                "package": "o.s.o.j.LocalContainerEntityManagerFactoryBean",
+                "file": "AbstractEntityManagerFactoryBean.java",
+                "line": "447",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T05:16:32.074+0530",
+                "message": "spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning",
+                "level": "WARN",
+                "package": "o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration",
+                "file": "JpaBaseConfiguration.java",
+                "line": "241",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T05:16:32.341+0530",
+                "message": "Tomcat started on port 8080 (http) with context path '/'",
+                "level": "INFO",
+                "package": "o.s.b.w.e.t.TomcatWebServer",
+                "file": "TomcatWebServer.java",
+                "line": "243",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T05:16:32.347+0530",
+                "message": "Started TriomicsApplication in 2.511 seconds (process running for 3.104)",
+                "level": "INFO",
+                "package": "c.e.t.TriomicsApplication",
+                "file": "StartupInfoLogger.java",
+                "line": "59",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T05:16:33.162+0530",
+                "message": "Initializing Servlet 'dispatcherServlet'",
+                "level": "INFO",
+                "package": "o.s.w.s.DispatcherServlet",
+                "file": "FrameworkServlet.java",
+                "line": "532",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T05:16:33.163+0530",
+                "message": "Completed initialization in 1 ms",
+                "level": "INFO",
+                "package": "o.s.w.s.DispatcherServlet",
+                "file": "FrameworkServlet.java",
+                "line": "554",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T05:18:14.395+0530",
+                "message": "Fetching all persons.",
+                "level": "INFO",
+                "package": "c.e.t.c.PersonController",
+                "file": "PersonController.java",
+                "line": "64",
+                "traceId": "d281b405-6fb7-4d69-a593-6296b7135439",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T05:18:14.396+0530",
+                "message": "Debugging getAllPersons method.",
+                "level": "DEBUG",
+                "package": "c.e.t.c.PersonController",
+                "file": "PersonController.java",
+                "line": "65",
+                "traceId": "d281b405-6fb7-4d69-a593-6296b7135439",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T05:18:14.396+0530",
+                "message": "Error occurred while fetching all persons.",
+                "level": "ERROR",
+                "package": "c.e.t.c.PersonController",
+                "file": "PersonController.java",
+                "line": "66",
+                "traceId": "d281b405-6fb7-4d69-a593-6296b7135439",
+                "stackTrace": " java.lang.Exception: Sample exception
+	at com.example.triomics.controllers.PersonController.getAllPersons(PersonController.java:66)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:257)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at com.example.triomics.utils.LoggingFilter.doFilterInternal(LoggingFilter.java:46)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+"
+            }{
+                "timestamp": "2025-01-28T05:25:24.822+0530",
+                "message": "Commencing graceful shutdown. Waiting for active requests to complete",
+                "level": "INFO",
+                "package": "o.s.b.w.e.t.GracefulShutdown",
+                "file": "GracefulShutdown.java",
+                "line": "54",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T05:25:24.826+0530",
+                "message": "Graceful shutdown complete",
+                "level": "INFO",
+                "package": "o.s.b.w.e.t.GracefulShutdown",
+                "file": "GracefulShutdown.java",
+                "line": "76",
+                "traceId": "",
+                "stackTrace": ""
+            }{
+                "timestamp": "2025-01-28T05:25:24.829+0530",
+                "message": "Closing JPA EntityManagerFactory for persistence unit 'default'",
+                "level": "INFO",
+                "package": "o.s.o.j.LocalContainerEntityManagerFactoryBean",
+                "file": "AbstractEntityManagerFactoryBean.java",
+                "line": "660",
+                "traceId": "",
+                "stackTrace": ""
             }
