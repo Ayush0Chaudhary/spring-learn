@@ -40,11 +40,12 @@ public class PersonService {
     private final PersonRepository personRepository;
 
     public Person createPerson(PersonDTO personDTO) {
+        log.info("Creating person: {}", personDTO);
         return personRepository.save(toEntity(personDTO));
     }
 
     public List<PersonDTO> getAllPersons() {
-        log.info("Fetching all persons");
+        log.info("Retrieving all persons");
         return personRepository.findAll()
                 .stream()
                 .map(this::toDTO)
@@ -52,12 +53,14 @@ public class PersonService {
     }
 
     public PersonDTO getPersonById(Long id) {
+        log.info("Retrieving person by ID: {}", id);
         Person personFromDb = personRepository.findById(id)
                 .orElseThrow(() -> new ResourceNotFoundException("Person not found with id " + id));
         return toDTO(personFromDb);
     }
 
     public Person updatePerson(Long id, PersonDTO personDTO) {
+        log.info("Updating person with ID {}: {}", id, personDTO);
         Person existingPerson = personRepository.findById(id)
                 .orElseThrow(() -> new ResourceNotFoundException("Person not found with id " + id));
         existingPerson.setName(personDTO.getName());
@@ -68,6 +71,7 @@ public class PersonService {
     }
 
     public void deletePerson(Long id) {
+        log.info("Deleting person with ID: {}", id);
         personRepository.findById(id)
                 .orElseThrow(() -> new ResourceNotFoundException("Person not found with id " + id));
         personRepository.deleteById(id);
